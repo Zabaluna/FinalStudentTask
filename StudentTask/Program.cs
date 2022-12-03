@@ -1,5 +1,8 @@
-﻿string[] firstarray = new string[6] { "0", "two", "three", "four", "five", "12345" };
+﻿string[] firstarray = new string[6] { "0", "two", "three", "four", "five", "12345"};
 string[] resultarray = new string[firstarray.Length];
+
+Console.Write(" Задан массив: {0, two, three, four, five, 12345 }");
+Console.WriteLine();
 
 void FindThreeStringElements(string[] firstarray, string[] resultarray)
 {
@@ -17,8 +20,8 @@ void FindThreeStringElements(string[] firstarray, string[] resultarray)
 void PrintArray(string[] array)
 {
     for (int i = 0; i < array.Length; i++)
-    {
-        Console.Write($" {array[i]}");
+    {  
+        Console.Write($" {array[i]} ");
     }
     Console.Write("-> Cтроки длина которых меньше или равна 3 символам:");
 }
