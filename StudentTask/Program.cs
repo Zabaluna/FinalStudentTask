@@ -23,5 +23,6 @@ void PrintArray(string[] array)
     Console.Write("-> Cтроки длина которых меньше или равна 3 символам:");
 }
 
-
+FindThreeStringElements(firstarray, resultarray);
+PrintArray(resultarray);
 
