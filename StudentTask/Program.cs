@@ -1,7 +1,7 @@
 ﻿string[] firstarray = new string[6] { "0", "two", "three", "four", "five", "12345"};
 string[] resultarray = new string[firstarray.Length];
 
-Console.Write(" Задан массив: [0, two, three, four, five, 12345 ]");
+Console.WriteLine($"Задан массив: [{string.Join(", ", firstarray)}] -> ");
 Console.WriteLine();
 
 void FindThreeStringElements(string[] firstarray, string[] resultarray)
